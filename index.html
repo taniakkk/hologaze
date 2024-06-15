@@ -1,0 +1,571 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta name="format-detection" content="telephone=no">
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css">
+   <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+   <link rel="stylesheet" href="css/style.css" type="text/css">
+   <style>
+      body {
+         opacity: 0;
+      }
+   </style>
+   <title>HoloGaze</title>
+</head>
+
+<body>
+   <div class="wrapper">
+      <header class="header _anim-items _anim-no-hide" data-scroll="20" data-scroll-show>
+         <div class="header__container">
+            <div class="header__menu menu">
+               <div class="menu__icon">
+                  <div class="menu__icon-container">
+                     <span></span>
+                  </div>
+               </div>
+               <nav class="menu__body">
+                  <ul class="menu__list">
+                     <li class="menu__item">
+                        <a data-goto=".main" href="#" class="menu__link link">Home</a>
+                     </li>
+                     <li class="menu__item">
+                        <a data-goto=".games__container" href="#" class="menu__link link">Catalog</a>
+                     </li>
+                     <li class="menu__item">
+                        <a data-goto=".subscribe" href="#" class="menu__link link">Contact</a>
+                     </li>
+                     <li class="menu__item">
+                        <a data-goto=".features__container" href="#" class="menu__link link">Features</a>
+                     </li>
+                  </ul>
+               </nav>
+            </div>
+            <a href="#" class="header__logo">
+               <img src="img/logo.svg" alt="Logo">
+            </a>
+            <div class="header__content">
+               <div class="header__search search-menu">
+                  <input type="text" class="search-menu__input" placeholder="Search games & products..">
+                  <button type="button" class="search-menu__search-icon">
+                     <img src="img/icons/search.svg" alt="Search">
+                  </button>
+               </div>
+               <button type="button" class="header__busket">
+                  <img src="img/icons/shopping-bag.svg" alt="Busket">
+               </button>
+            </div>
+         </div>
+      </header>
+      <main class="page">
+         <section class="page__main main">
+            <div class="main__background">
+               <img src="img/main/bg.svg" alt="Background">
+            </div>
+            <div class="main__container">
+               <div class="main__content _anim-items _anim-no-hide">
+                  <div class="main__product-name">Virtual Headsets</div>
+                  <h1 class="main__title">Experience a new dimension of reality</h1>
+                  <div class="main__text">
+                     <p>
+                        Step into the future with our virtual headset, come to life
+                        right before your eyes
+                     </p>
+                  </div>
+                  <div class="main__buttons">
+                     <a href="#" class="main__store-button button light-button"><span>Visit Store</span></a>
+                     <a href="#" class="main__explore-button button-explore button"><span>Explore</span></a>
+                  </div>
+                  <div class="main__social social-main">
+                     <h4 class="social-main__title">FOLLOW US</h4>
+                     <ul class="social-main__list">
+                        <li class="social-main__item">
+                           <a href="#" class="social-main__link">
+                              <img src="img/icons/twitter.svg" alt="Twitter">
+                           </a>
+                        </li>
+                        <li class="social-main__item">
+                           <a href="#" class="social-main__link">
+                              <img src="img/icons/instagram.svg" alt="Instagram">
+                           </a>
+                        </li>
+                        <li class="social-main__item">
+                           <a href="#" class="social-main__link">
+                              <img src="img/icons/discord.svg" alt="Discord">
+                           </a>
+                        </li>
+                        <li class="social-main__item">
+                           <a href="#" class="social-main__link">
+                              <img src="img/icons/facebook.svg" alt="Facebook">
+                           </a>
+                        </li>
+                     </ul>
+                  </div>
+               </div>
+               <div class="main__product product-presentation">
+                  <div class="product-presentation__images">
+                     <div class="product-presentation__image _anim-items _anim-no-hide">
+                        <img src="img/main/main-image.png" alt="Product image">
+                     </div>
+                     <div class="product-presentation__benefit-form-main _anim-items _anim-no-hide">
+                        <img src="img/icons/main-text-form-main.svg" alt="Image">
+                        <div class="benefit-form-text benefit-form-text-dark benefit-form-main-text--1">
+                           Hello, John
+                        </div>
+                        <div class="benefit-form-text benefit-form-main-text--2">
+                           Discover new world
+                        </div>
+                        <div class="benefit-form-text benefit-form-main-text--3">
+                           Ultra reality
+                        </div>
+                     </div>
+                     <div class="product-presentation__benefit-form _anim-items _anim-no-hide">
+                        <img src="img/icons/main-text-form.svg" alt="Image">
+                        <div class="benefit-form-text benefit-form-text-dark benefit-form-text--1">
+                           +100 Games
+                        </div>
+                     </div>
+                  </div>
+                  <div class="product-presentation__benefit product-benefit">
+                     <div class="product-benefit__item">
+                        <div class="product-benefit__icon product-benefit__icon--education">
+                           <img src="img/icons/education.svg" alt="Icon">
+                        </div>
+                        <div class="product-benefit__type">Enhanced Education</div>
+                     </div>
+                     <div class="product-benefit__item">
+                        <div class="product-benefit__icon product-benefit__icon--sport">
+                           <img src="img/icons/sport.svg" alt="Icon">
+                        </div>
+                        <div class="product-benefit__type">Training and Simulation</div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </section>
+         <section class="page__features features">
+            <div class="features__container">
+               <div class="features__images">
+                  <div class="features__image _anim-items _anim-no-hide">
+                     <img src="img/features/product.png" alt="Product">
+                  </div>
+                  <img class="features__image-background" src="img/features/bg.svg" alt="Product background">
+               </div>
+               <div class="features__content">
+                  <h2 class="features__title title">
+                     Our Virtual Headsets Shine with Unique Features!
+                  </h2>
+                  <div class="features__items items-features">
+                     <div class="items-features__item _anim-items _anim-no-hide">
+                        High-resolution OLED or LCD screens: Provide sharp and clear
+                        visuals.
+                     </div>
+                     <div class="items-features__item _anim-items _anim-no-hide">
+                        Refresh rate: Higher refresh rates reduce motion sickness and
+                        provide.
+                     </div>
+                     <div class="items-features__item _anim-items _anim-no-hide">
+                        Inside-out tracking: Built-in sensors (cameras or other
+                        sensors).
+                     </div>
+                     <div class="items-features__item _anim-items _anim-no-hide">
+                        Eye tracking: Monitors the movement of the user's eyes,
+                        allowing for more.
+                     </div>
+                     <div class="items-features__item _anim-items _anim-no-hide">
+                        High-resolution OLED or LCD screens: Provide sharp and clear
+                        visuals.
+                     </div>
+                     <div class="items-features__item _anim-items _anim-no-hide">
+                        Refresh rate: Higher refresh rates reduce motion sickness and
+                        provide.
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </section>
+         <section class="page__blog blog">
+            <div class="blog__container">
+               <div class="blog__content">
+                  <h2 class="blog__title title">Jane Wilson, Gaming Creator</h2>
+                  <div class="blog__text">
+                     <p>
+                        A virtual headset creator is an individual or company that
+                        specializes in designing and manufacturing virtual reality
+                        headsets, also known as VR headsets.
+                     </p>
+                  </div>
+                  <div class="blog__button-container">
+                     <a href="#" class="blog__button button button-dark"><span>Read my blog</span></a>
+                  </div>
+                  <div class="blog__views views">
+                     <div class="views__users">
+                        <div class="views__user">
+                           <img src="img/blog/viewer-1.png" alt="Viewer">
+                        </div>
+                        <div class="views__user">
+                           <img src="img/blog/viewer-2.png" alt="Viewer">
+                        </div>
+                        <div class="views__user">
+                           <img src="img/blog/viewer-3.png" alt="Viewer">
+                        </div>
+                        <div class="views__user">
+                           <img src="img/blog/viewer-4.png" alt="Viewer">
+                        </div>
+                        <div class="views__user">
+                           <img src="img/blog/viewer-5.png" alt="Viewer">
+                        </div>
+                     </div>
+                     <div class="views__text">+258K Views</div>
+                  </div>
+               </div>
+               <div class="blog__images">
+                  <div class="blog__image">
+                     <img src="img/blog/main-image.png" alt="Image">
+                  </div>
+                  <div class="blog__post post">
+                     <div class="post__header">
+                        <div class="post__user-photo">
+                           <img src="img/blog/post/user.png" alt="User photo">
+                        </div>
+                        <div class="post__user-information">
+                           <div class="post__name">Jane Wilson</div>
+                           <div class="post__nickname">@jjwilson</div>
+                        </div>
+                     </div>
+                     <div class="post__comment">
+                        <p>Virtual headsets of the future is live!</p>
+                     </div>
+                     <div class="post__date">
+                        <time datetime="2020-02-21" class="post__time">09:28 · 2/21/20 ·
+                        </time>
+                        <a href="#" class="post__social-link">Twitter Web App</a>
+                     </div>
+                     <div class="post__information">
+                        <div class="post__retweets"><span>24,5k</span> Retweets</div>
+                        <div class="post__likes"><span>104,21k</span> Likes</div>
+                     </div>
+                     <div class="post__interaction">
+                        <button type="button" class="post__comment-button">
+                           <img src="img/blog/post/comment-icon.svg" alt="Comment">
+                        </button>
+                        <button type="button" class="post__retweet-button">
+                           <img src="img/blog/post/retweet-icon.svg" alt="Retweet">
+                        </button>
+                        <button type="button" class="post__like-button">
+                           <img src="img/blog/post/heart-icon.svg" alt="Like">
+                        </button>
+                        <button type="button" class="post__share-button">
+                           <img src="img/blog/post/share-icon.svg" alt="Share">
+                        </button>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </section>
+         <section class="page__games games">
+            <div class="games__container">
+               <div class="games__content">
+                  <h2 class="games__title title">Top Games</h2>
+                  <div class="games__text">
+                     <p>
+                        If you buy video 2 games, you will receive 1 video game for
+                        free, along with a <span>50%</span>
+                        discount.
+                     </p>
+                  </div>
+                  <div class="games__navigation">
+                     <div class="games-slider-prev"></div>
+                     <div class="games-slider-next"></div>
+                  </div>
+               </div>
+            </div>
+            <div class="games__body">
+               <div class="swiper games-slider _anim-items _anim-no-hide">
+                  <div class="swiper-wrapper games-slider__wrapper">
+                     <div class="swiper-slide games-slider__slide">
+                        <div class="games-slider__image">
+                           <img src="img/games/game-1.png" alt="Computer game">
+                        </div>
+                        <div class="games-slider__game-name">
+                           Horizon : Call of the mountain
+                        </div>
+                     </div>
+
+                     <div class="swiper-slide games-slider__slide">
+                        <div class="games-slider__image">
+                           <img src="img/games/game-2.png" alt="Computer game">
+                        </div>
+                        <div class="games-slider__game-name">Half - Life : ALYX</div>
+                     </div>
+
+                     <div class="swiper-slide games-slider__slide">
+                        <div class="games-slider__image">
+                           <img src="img/games/game-3.png" alt="Computer game">
+                        </div>
+                        <div class="games-slider__game-name">
+                           Fight Night Champion
+                        </div>
+                     </div>
+
+                     <div class="swiper-slide games-slider__slide">
+                        <div class="games-slider__image">
+                           <img src="img/games/game-4.png" alt="Computer game">
+                        </div>
+                        <div class="games-slider__game-name">
+                           Call of Duty : Coold War
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </section>
+         <section class="page__questions questions">
+            <div class="questions__container">
+               <h2 class="questions__title title">F.A.Q.</h2>
+               <ul class="questions__items">
+                  <li class="questions__accordion accordion _anim-items _anim-no-hide">
+                     <button class="accordion__control" aria-expanded="false">
+                        <span class="accordion__question">What are the different types of virtual headsets
+                           available?</span>
+                        <span class="accordion__icon"></span>
+                     </button>
+                     <div class="accordion__content" aria-hidden="true">
+                        <ol>
+                           <li>
+                              <span>Virtual Reality (VR) Headsets:</span> These headsets immerse
+                              users in a completely virtual environment, often used for
+                              gaming, simulations, and other immersive experiences.
+                           </li>
+                           <li>
+                              <span>Augmented Reality (AR) Headsets:</span> AR headsets overlay
+                              digital information onto the real world, enhancing the
+                              user's perception of their surroundings.
+                           </li>
+                           <li>
+                              <span>Mixed Reality (MR) Headsets:</span> MR headsets combine elements
+                              of both VR and AR, allowing users to interact with both
+                              virtual and real-world objects simultaneously.
+                           </li>
+                           <li>
+                              <span>Standalone Headsets:</span> These headsets do not require a
+                              separate device, such as a computer or smartphone, to
+                              function, offering more freedom of movement.
+                           </li>
+                           <li>
+                              <span>Tethered Headsets:</span> Tethered headsets are connected to a
+                              computer or gaming console, providing high-quality
+                              graphics and immersive experiences.
+                           </li>
+                        </ol>
+                     </div>
+                  </li>
+                  <li class="questions__accordion accordion open _anim-items _anim-no-hide">
+                     <button class="accordion__control" aria-expanded="false">
+                        <span class="accordion__question">
+                           How does a virtual headset work?
+                        </span>
+                        <span class="accordion__icon"></span>
+                     </button>
+                     <div class="accordion__content" aria-hidden="true">
+                        <p>
+                           Virtual headsets are equipped with various sensors to track
+                           the user's movements. These sensors can include
+                           accelerometers, gyroscopes, and sometimes external cameras
+                           or base stations. They constantly monitor the position and
+                           orientation of the headset and sometimes the user's hand
+                           controllers.
+                        </p>
+                        <p>
+                           The headset has one or two high-resolution displays, one for
+                           each eye, positioned in front of the user's eyes. These
+                           displays show stereoscopic 3D images, creating a sense of
+                           depth and immersion. Between the displays and the user's
+                           eyes, help focus the images and adjust them for the user's
+                           field of view.
+                        </p>
+                     </div>
+                  </li>
+                  <li class="questions__accordion accordion _anim-items _anim-no-hide">
+                     <button class="accordion__control" aria-expanded="false">
+                        <span class="accordion__question">
+                           Do I need a powerful computer to use a virtual headset?
+                        </span>
+                        <span class="accordion__icon"></span>
+                     </button>
+                     <div class="accordion__content" aria-hidden="true">
+                        <p>
+                           Yes, the requirements for using a virtual headset can vary
+                           depending on the type of headset you have. Generally, VR
+                           headsets that are tethered to a computer or gaming console
+                           may require a powerful computer with a dedicated graphics
+                           card to run smoothly and provide a high-quality experience.
+                        </p>
+
+                        <p>
+                           On the other hand, standalone VR headsets typically have
+                           their own built-in hardware and do not require a separate
+                           computer. These standalone headsets are designed to be more
+                           accessible and user-friendly, making them a great option for
+                           those who do not have a powerful computer.
+                        </p>
+                     </div>
+                  </li>
+                  <li class="questions__accordion accordion _anim-items _anim-no-hide">
+                     <button class="accordion__control" aria-expanded="false">
+                        <span class="accordion__question">
+                           What are the main applications of virtual headsets?
+                        </span>
+                        <span class="accordion__icon"></span>
+                     </button>
+                     <div class="accordion__content" aria-hidden="true">
+                        <p>Virtual headsets have a wide range of applications across various industries and fields. Some
+                           of the main applications of virtual headsets include:</p>
+                        <ol>
+                           <li>
+                              <span>Gaming:</span> Virtual headsets are commonly used for immersive gaming experiences,
+                              allowing
+                              players to feel like they are inside the game world.
+                           </li>
+                           <li>
+                              <span>Education and Training:</span> Virtual headsets are used for educational purposes,
+                              such as
+                              virtual field trips, interactive learning experiences, and training simulations for
+                              various industries.
+                           </li>
+                           <li>
+                              <span>Healthcare:</span> Virtual headsets are utilized in healthcare for medical training,
+                              surgical
+                              simulations, pain management, and therapy sessions.
+                           </li>
+                           <li>
+                              <span>Architecture and Design:</span> Virtual headsets are used in architecture and design
+                              for virtual
+                              walkthroughs of buildings, interior design visualization, and urban planning simulations.
+                           </li>
+                           <li>
+                              <span>Entertainment:</span> Virtual headsets are used in the entertainment industry for
+                              virtual
+                              concerts, movie screenings, and interactive storytelling experiences.
+                           </li>
+                           <li>
+                              <span>Virtual Meetings and Collaboration:</span> Virtual headsets are used for virtual
+                              meetings, remote
+                              collaboration, and team-building exercises, providing a more immersive and engaging
+                              experience.
+                           </li>
+                        </ol>
+                     </div>
+                  </li>
+               </ul>
+            </div>
+         </section>
+      </main>
+      <footer class="footer _anim-items _anim-no-hide">
+         <div class="footer__container">
+            <div class="footer__content">
+               <div class="footer__contacts contacts">
+                  <div class="contacts__logo">
+                     <img src="img/logo.svg" alt="Logo">
+                  </div>
+                  <ul class="contacts__social social">
+                     <li class="social__item">
+                        <a href="#" class="social__link">
+                           <img src="img/icons/twitter.svg" alt="Twitter">
+                        </a>
+                     </li>
+                     <li class="social__item">
+                        <a href="#" class="social__link">
+                           <img src="img/icons/instagram.svg" alt="Instagram">
+                        </a>
+                     </li>
+                     <li class="social__item">
+                        <a href="#" class="social__link">
+                           <img src="img/icons/discord.svg" alt="Discord">
+                        </a>
+                     </li>
+                     <li class="social__item">
+                        <a href="#" class="social__link">
+                           <img src="img/icons/facebook.svg" alt="Facebook">
+                        </a>
+                     </li>
+                  </ul>
+                  <div class="social__phone">
+                     <a href="tel:99419928786" class="social__phone-link">
+                        (+994) 199-28-786
+                     </a>
+                  </div>
+               </div>
+               <div class="footer__navigation navigation-footer">
+                  <div class="navigation-footer__group">
+                     <h4 class="navigation-footer__title content-footer-title">
+                        Menu
+                     </h4>
+                     <ul class="navigation-footer__list">
+                        <li class="navigation-footer__item">
+                           <a data-goto=".main" href="#" class="navigation-footer__link link">Home</a>
+                        </li>
+                        <li class="navigation-footer__item">
+                           <a data-goto=".games__container" href="#" class="navigation-footer__link link">Catalog</a>
+                        </li>
+                        <li class="navigation-footer__item">
+                           <a data-goto=".features__container" href="#"
+                              class="navigation-footer__link link">Features</a>
+                        </li>
+                        <li class="navigation-footer__item">
+                           <a data-goto=".subscribe" href="#" class="navigation-footer__link link">Contact</a>
+                        </li>
+                     </ul>
+                  </div>
+                  <div class="navigation-footer__group">
+                     <h4 class="navigation-footer__title content-footer-title">
+                        Company
+                     </h4>
+                     <ul class="navigation-footer__list">
+                        <li class="navigation-footer__item">
+                           <a href="#" class="navigation-footer__link link">Login</a>
+                        </li>
+                        <li class="navigation-footer__item">
+                           <a href="#" class="navigation-footer__link link">Sign Up</a>
+                        </li>
+                        <li class="navigation-footer__item">
+                           <a href="#" class="navigation-footer__link link">Privacy</a>
+                        </li>
+                        <li class="navigation-footer__item">
+                           <a href="#" class="navigation-footer__link link button-link">Products</a>
+                        </li>
+                     </ul>
+                  </div>
+               </div>
+               <div class="footer__subscribe subscribe">
+                  <h4 class="subscribe__title content-footer-title">
+                     Subscribe Our News Letter
+                  </h4>
+                  <div class="subscribe__text">
+                     <p>
+                        Sure, please provide your email address to subscribe to
+                        newsletter
+                     </p>
+                  </div>
+                  <form action="#" class="subscribe__form form-subscribe" method="post">
+                     <input class="form-subscribe__email-input" type="email" name="user-email"
+                        placeholder="Enter your mail..." required>
+                     <button type="submit" class="form-subscribe__button">
+                        Subscribe
+                     </button>
+                  </form>
+               </div>
+            </div>
+            <div class="footer__copy">
+               <p>© 2023 HoloGaze. All rights reserved.</p>
+            </div>
+         </div>
+      </footer>
+   </div>
+   <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+   <script src="js/script.min.js"></script>
+</body>
+
+</html>

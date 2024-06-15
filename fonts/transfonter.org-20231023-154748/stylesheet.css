@@ -1,0 +1,39 @@
+@font-face {
+    font-family: 'SF Pro Text';
+    src: url('SFProText-Semibold.eot');
+    src: local('SF Pro Text Semibold'), local('SFProText-Semibold'),
+        url('SFProText-Semibold.eot?#iefix') format('embedded-opentype'),
+        url('SFProText-Semibold.woff2') format('woff2'),
+        url('SFProText-Semibold.woff') format('woff'),
+        url('SFProText-Semibold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SF Pro Text';
+    src: url('SFProText-Light.eot');
+    src: local('SF Pro Text Light'), local('SFProText-Light'),
+        url('SFProText-Light.eot?#iefix') format('embedded-opentype'),
+        url('SFProText-Light.woff2') format('woff2'),
+        url('SFProText-Light.woff') format('woff'),
+        url('SFProText-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SF Pro Text';
+    src: url('SFProText-Regular.eot');
+    src: local('SF Pro Text Regular'), local('SFProText-Regular'),
+        url('SFProText-Regular.eot?#iefix') format('embedded-opentype'),
+        url('SFProText-Regular.woff2') format('woff2'),
+        url('SFProText-Regular.woff') format('woff'),
+        url('SFProText-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
