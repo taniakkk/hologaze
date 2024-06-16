@@ -231,7 +231,7 @@ body._lock {
    content: "";
    display: inline-block;
    position: absolute;
-   top: 0;
+   bottom: 0;
    right: 0;
    background-size: 1rem;
    width: 1.5rem;
@@ -321,8 +321,9 @@ body._lock {
 .button-explore span::after {
    content: "";
    position: absolute;
-   top: 0;
    left: 0;
+   top: 50%;
+   transform: translate(0, -50%);
    background: url("../img/icons/explore.svg") center no-repeat;
    background-size: 1.25rem;
    width: 1.5rem;
@@ -349,10 +350,10 @@ body._lock {
       background-color: rgba(189, 0, 255, 0.36);
    }
 }
-.button span::after {
+/*.button span::after {
    top: 50%;
    transform: translate(0, -50%);
-}
+}*/
 /*---------------------------------------------------------------------------*/
 
 .link {
