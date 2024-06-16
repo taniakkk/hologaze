@@ -196,7 +196,7 @@ body._lock {
    font-family: "Satoshi-Medium";
    font-size: 1.125rem;
    font-weight: 500;
-   /* line-height: 133.333333%; 24/18 */
+   line-height: 133.333333%; /*24/18 */
    min-height: 3.5rem;
    padding: 0.9375rem 1.5rem;
    border-radius: 0.25rem;
